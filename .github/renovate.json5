@@ -43,7 +43,7 @@
       allowedVersions: '<1.0.0',
     },
     {
-      // wait to upgrade until our next major version since it requires Node 22.17 or higher
+      // blocked by oxlint issue: https://github.com/oxc-project/oxc/issues/19431
       packageNames: ['oxlint'],
       allowedVersions: '1.47.0',
     },
